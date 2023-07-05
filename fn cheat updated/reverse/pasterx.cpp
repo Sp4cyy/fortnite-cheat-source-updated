@@ -16,10 +16,10 @@
 
 using namespace KeyAuth;
 
-std::string name = "SPOOFER"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-std::string ownerid = "92dLqo0ULh"; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-std::string secret = "224db9045702be841b4104c0600d092d8236ae0ff2fd6cab67aa5ba2721dc145"; // app secret, the blurred text on licenses tab and other tabs
-std::string version = "1.0"; // leave alone unless you've changed version on website
+std::string name = ""; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
+std::string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+std::string secret = ""; // app secret, the blurred text on licenses tab and other tabs
+std::string version = ""; // leave alone unless you've changed version on website
 std::string url = "https://keyauth.win/api/1.2/"; // change if you're self-hosting
 
 api KeyAuthApp(name, ownerid, secret, version, url);
