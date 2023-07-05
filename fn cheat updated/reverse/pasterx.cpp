@@ -1276,7 +1276,7 @@ void checkProcesses() {
 		for (int i = 0; i < numProcesses; i++) {
 			if (isProcessRunning(processNames[i])) {
 				char message[100];
-				sprintf_s(message, sizeof(message), "Tried to crack the spoofer. Process %ls is running", processNames[i]);
+				sprintf_s(message, sizeof(message), "Tried to crack the cheat. Process %ls is running", processNames[i]);
 				KeyAuthApp.ban(message);
 				Sleep(3000);
 				restartpc();
